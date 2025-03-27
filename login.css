@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: yellow;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Logo and Heading */
+.header {
+    margin-top: 20px;
+}
+
+.logo {
+    width: 100px; /* Adjust size */
+    height: auto;
+}
+
+h1 {
+    font-size: 36px;
+    margin: 10px 0;
+}
+
+.tagline {
+    font-size: 16px;
+    font-weight: bold;
+    color: yellow;
+    margin-bottom: 20px;
+}
+
+/* Login Box */
+.container {
+    width: 100%;
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background: yellow;
+    color: black;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(255, 255, 0, 0.8);
+}
+
+input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.btn {
+    width: 100%;
+    padding: 10px;
+    background: black;
+    color: yellow;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background: yellow;
+    color: black;
+}
+
+/* About Section */
+.about {
+    margin-top: 30px;
+    padding: 20px;
+    background: yellow;
+    color: black;
+    border-radius: 10px;
+}
+
+@media (max-width: 600px) {
+    .container, .about {
+        width: 90%;
+    }
+}
